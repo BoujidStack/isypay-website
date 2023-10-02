@@ -1,0 +1,146 @@
+.DevenirClient-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.DevenirClient-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  padding: 20px;
+}
+
+.DevenirClient-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.DevenirClient-text {
+  margin-bottom: 20px;
+}
+
+.DevenirClient-text .DevenirClient-heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: #0E3EB3;
+  text-align: left;
+  margin-bottom: 15px;
+  width: 80%;
+}
+
+.DevenirClient-text .DevenirClient-sub-heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2E2E2E;
+  text-align: left;
+  width: 55%;
+  margin-bottom: 15px;
+}
+
+.DevenirClient-image {
+  margin-top: -80px;
+  margin-left: -25rem;
+}
+
+.DevenirClient-image img {
+  max-width: 140%;
+  height: auto;
+}
+
+.types-image-section-client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.types-image-container-client {
+  display: flex;
+}
+
+.types-image-client {
+  position: relative;
+  margin: 0 20px;
+}
+
+.types-image-client img {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+
+.overlay-client {
+  position: absolute;
+  top: 50%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 20px;
+  text-align: left;
+}
+
+.overlay-client h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #2E2E2E;
+  margin-bottom: 40px;
+}
+
+.overlay-client button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0E3EB3;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.overlay-client button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+@media (max-width: 767px) {
+  .DevenirClient-content {
+    margin-top: -20px;
+    margin-left: 20px;
+  }
+
+  .DevenirClient-image {
+    display: none;
+  }
+
+  .DevenirClient-text .DevenirClient-heading {
+    font-size: 24px;
+  }
+
+  .DevenirClient-text .DevenirClient-sub-heading {
+    font-size: 16px;
+    width: 105%;
+  }
+
+  .DevenirClient-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .DevenirClient-content {
+    margin: 0;
+  }
+
+  .DevenirClient-image {
+    display: none;
+  }
+}

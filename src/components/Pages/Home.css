@@ -1,0 +1,895 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.text {
+  margin-bottom: 20px;
+}
+
+.text .heading {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E3EB3;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.text .sub-heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2E2E2E;
+  text-align: left;
+  width: 65%;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #2E2E2E;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.button1 {
+  background: linear-gradient(to bottom, #3FA9F5, #0E3EB3);
+  border-radius: 10px;
+  width: 200px;
+}
+
+.button2 {
+  background: linear-gradient(to bottom, #62FFC6, #14DE94);
+  border-radius: 10px;
+  width: 200px;
+}
+
+.button-icon1 {
+  width: 50px;
+  height: 50px;
+  margin-right: 8px;
+  background-image: url('../../assets/appStore.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.button-icon2 {
+  width: 50px;
+  height: 50px;
+  margin-right: 8px;
+  background-image: url('../../assets/playStore.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.image {
+  margin-top: -150px;
+}
+
+img {
+  max-width: 120%;
+  height: auto;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.about-us-image {
+  max-width: 500px;
+  max-height: 450px;
+  margin-right: 300px;
+}
+
+.about-us-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-us-text {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.about-us-text h2 {
+  font-size: 40px;
+  margin-left: -50rem;
+  margin-top: -15rem;
+  color: #0E3EB3;
+  text-align: center;
+  line-height: 280px;
+}
+
+.about-us-text h1 {
+  font-size: 18px;
+  color: #2E2E2E;
+  text-align: left;
+}
+
+
+/* Slider container */
+.slider {
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+  display: flex;
+  align-items: center;
+}
+
+.slide-track {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+.slide {
+  height: 100px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+.new-section {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.new-section h1 {
+  font-size: 30px;
+  color: #0E3EB3;
+}
+
+.new-section-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.new-section-images img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 -105px;
+}
+
+
+/* New Tarification Section */
+.tarification-section {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.tarification-section .title {
+  font-size: 30px;
+  color: #0E3EB3;
+}
+
+.tarification-section .text {
+  font-size: 18px;
+  color: #2E2E2E;
+  margin: 20px 0;
+}
+
+.tarification-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tarification-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* New Pricing détaillé Retrait Section */
+.pricing-retrait-section {
+  text-align: center;
+  margin: -70px;
+}
+
+.double-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.double-titles .title1 {
+  font-size: 30px;
+  color: #0E3EB3;
+  margin: 10px 0;
+}
+
+.double-titles .title2 {
+  font-size: 18px;
+  color: #14DE94;
+  margin: 10px 0;
+}
+
+.retrait-calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.coolinput {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  position: static;
+  max-width: 240px;
+}
+
+.coolinput label.text {
+  font-size: 0.75rem;
+  color: #0E3EB3;
+  font-weight: 700;
+  position: relative;
+  top: 0.5rem;
+  margin: 0 0 0 7px;
+  padding: 0 3px;
+  background: #fff;
+  width: fit-content;
+}
+
+.coolinput input[type=text].input {
+  padding: 11px 10px;
+  font-size: 0.75rem;
+  border: 2px #0E3EB3 solid;
+  border-radius: 5px;
+}
+
+.coolinput input[type=text].input:focus {
+  outline: none;
+}
+
+
+.tableTrif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tableTrif img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.card {
+  background-color: #0E3EB3;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 25px;
+  max-width: 80rem;
+  width: 100%;
+  display: flex;
+  height: 290px;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-left: 50px;
+  padding: 30px;
+}
+
+.left-content {
+  flex: 1;
+  padding-right: 20px;
+  color: #fff;
+}
+
+.right-content {
+  flex: 1;
+  text-align: right;
+}
+
+.left-content .title {
+  font-size: 35px;
+  margin: 0 0 10px 0;
+}
+
+.left-content .text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.left-content .cardButtons {
+  display: flex;
+  margin-top: 10px;
+}
+
+.cardButtons a {
+  padding: 5px 5px;
+}
+
+.bn45 {
+  width: 170px;
+  height: 50px;
+}
+
+.bn45:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.right-content img {
+  max-width: 65%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: -50px;
+}
+
+
+.security {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.security .title {
+  font-size: 30px;
+  color: #0E3EB3;
+  margin-bottom: 10px;
+}
+
+.security .text {
+  font-size: 18px;
+  color: #555555;
+  margin-bottom: 10px;
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.security-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 200px;
+}
+
+.security-images .image {
+  flex-basis: 30%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.security-images .image img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.security-images .image h2 {
+  font-size: 18px;
+  color: #0E3EB3;
+  margin-bottom: 10px;
+}
+
+.security-images .image p {
+  font-size: 14px;
+  color: #555555;
+}
+
+
+
+
+.faq-container {
+  margin: 0 auto;
+  padding: 4rem;
+}
+
+.container-content {
+  margin-top: 10rem;
+}
+
+.faq-container h1 {
+  text-align: center;
+  color: #0E3EB3;
+  margin-bottom: 0rem;
+  font-size: 30px;
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #14DE94;
+  margin: 0 auto;
+  width: 150%;
+  max-width: 800px;
+  margin-top: 2rem;
+}
+
+.accordion .accordion-item button[aria-expanded='true'] {
+  border-bottom: 1px solid #0E3EB3;
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #0E3EB3;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #0E3EB3;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #0E3EB3;
+  border: 1px solid #0E3EB3;
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+  color: #0E3EB3;
+}
+
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+
+.accordion button[aria-expanded='true']+.accordion-content {
+  opacity: 1;
+  max-height: 15em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+  color: #2E2E2E;
+}
+
+
+
+
+.footer-distributed {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+.footer-distributed h3 {
+  color: #0E3EB3;
+  margin: 0;
+}
+
+.footer-distributed .footer-links {
+  color: #0E3EB3;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-distributed .footer-company-name {
+  color: #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #0E3EB3;
+  color: #fff;
+  font-size: 18px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #2E2E2E;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: #2E2E2E;
+  text-decoration: none;
+  ;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #2E2E2E;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #0E3EB3;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #0E3EB3;
+  border-radius: 25px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.footer-distributed .footer-bottom {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-distributed .footer-bottom h3 {
+  color: #0E3EB3;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.footer-distributed .footer-bottom .buttons {
+  display: inline-block;
+}
+
+.footer-distributed .footer-bottom .buttons button:last-child {
+  margin-right: 0;
+}
+
+.company-name {
+  color: #2E2E2E;
+  margin-top: 100px;
+}
+
+.company-name .isypayCopy {
+  font-weight: bold;
+  color: #0E3EB3;
+  cursor: pointer;
+}
+
+.company-name .isypayCopy:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 880px) {
+
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .content {
+    margin-top: -20px;
+    margin-left: 20px;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .text .heading {
+    font-size: 24px;
+  }
+
+  .text .sub-heading {
+    font-size: 16px;
+    width: 105%;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .content {
+    margin: 0;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .about-us {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .about-us-image {
+    margin-right: 0;
+    order: 2;
+    margin-top: 20px;
+  }
+
+  .about-us-text h2 {
+    font-size: 30px;
+    margin-left: 0;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .about-us-text h1 {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  .new-section-images {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .new-section-images img {
+    margin: 10px 0;
+  }
+
+  .tableTrif img {
+    max-width: 60%;
+  }
+
+  .card {
+    height: 585px;
+  }
+
+  .card-content {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .left-content .title {
+    font-size: 24px;
+  }
+
+  .left-content .text {
+    font-size: 16px;
+  }
+
+  .left-content .cardButtons {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .bn45 {
+    width: 150px;
+    height: 40px;
+  }
+
+  .right-content img {
+    max-width: 80%;
+    margin-top: 10px;
+  }
+
+
+  .faq-container {
+    padding: 2rem;
+    min-width: 196.5%;
+  }
+
+  .container-content {
+    margin-top: 5rem;
+  }
+
+  .accordion .accordion-item {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .accordion button .icon {
+    right: -30px;
+  }
+}

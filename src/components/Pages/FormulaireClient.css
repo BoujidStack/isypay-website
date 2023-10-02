@@ -1,0 +1,121 @@
+.form-client {
+    margin-top: -80px;
+}
+
+.form-container-client {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-title-client {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0E3EB3;
+}
+
+.radio-inline-client {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.form-text-client {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2E2E2E;
+}
+
+.radio-inline-client {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.card-Form-client {
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-body-Form-client {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.coolinput-client {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: static;
+    max-width: 240px;
+}
+
+.coolinput-client label.text {
+    font-size: 0.75rem;
+    color: #ccc;
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background: #fff;
+    width: fit-content;
+}
+
+.coolinput-client select.input {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #ccc solid;
+    border-radius: 5px;
+    width: 250px;
+    appearance: none;
+    background-color: #fff;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+
+.coolinput-client select.input:focus {
+    outline: none;
+    border-color: #ccc;
+}
+
+.coolinput-client input[type="text"].input {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #ccc solid;
+    border-radius: 5px;
+    width: 128%;
+}
+
+.coolinput-client .checkbox-label {
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    color: #ccc;
+    margin: 0.5rem 0;
+}
+
+.coolinput-client .envoyer-button {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #0E3EB3 solid;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #0E3EB3;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    line-height: 1;
+}
+
+.coolinput-client .envoyer-button:hover {
+    background-color: #fff;
+    color: #0E3EB3;
+}

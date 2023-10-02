@@ -1,0 +1,158 @@
+{
+    "navbar": {
+        "Particulier": "Particulier",
+        "Business": "Business",
+        "Developer": "Developer",
+        "DevenirClient": "Devenir Client",
+        "DevenirAgent": "Devenir Agent"
+    },
+    "home": {
+        "title": "Des paiements mobiles hyper faciles rapides et bien sécurisés grâce à la Blockchain",
+        "text": "Avec Isypay, Payez, envoyez et recevez de l'argent entre amis gratuitement via un simple numéro de mobile !"
+    },
+    "APropos": {
+        "titleSection": "A Propos",
+        "text": "IsySend est une Fintech Malienne mais à vocation Africaine qui opère dans le secteur financier. Elle se donne pour mission de participer à l’inclusion financière des populations africaines. IsySend développe les outils nécessaires pour connecter les différents acteurs de l'écosystème financier grâce à à une nouvelle infrastructure innovante et décentralisée. Elle utilise les nouvelles technologies de rupture comme la Blockchain et l'IA pour garantir un service moins onéreux, plus sécurisé et plus fiable. IsyPay est le premier produit de 'IsySend'."
+    },
+    "ParticuliersouProfessionnels": {
+        "title": "Particuliers ou Professionnels, bénéficier de services financiers aisés, accessibles et inclusifs."
+    },
+    "TarificationIsyPay": {
+        "title": "Tarification IsyPay",
+        "text": "Une tarification transparente et facile à comprendre. Aucun coût dissimulé. Aucune incertitude inattendue.",
+        "Pricingdétaillé": "Pricing détaillé",
+        "Retrait": "Retrait",
+        "VousRetirez": "Vous retirez",
+        "VousPayez": "Vous payez"
+    },
+    "card": {
+        "title": "Téléchargez l'application IsyPay",
+        "text": "Obtenez l'application IsyPay aujourd'hui pour commencer à profiter d'offres financières incroyables et d'une expérience de paiement de première classe."
+    },
+    "security": {
+        "title": "Votre sécurité est notre priorité",
+        "text": "Chez IsyPay, nous accordons une grande importance à la sécurité de votre argent, de vos activités et de vos données. Dans cette optique, nous nous assurons que vous avez un contrôle total sur chaque information que vous soumettez, chaque transaction que vous initiez et chaque nouvel appareil que vous approuvez.",
+        "title1": "Protocoles de protection et d'authentification des données de haut niveau",
+        "text1": "Sécurité assurée exclusivement par des mesures cryptographiques et des protocoles d'authentification robustes (par opposition à du simple contrôle d’accès/mot de passe). Identité des correspondants garantie sans tiers de confiance.",
+        "title2": "Infrastructure blockchain pour des transferts d'argent sécurisés",
+        "text2": "Toutes les transactions sont basées sur notre infrastructure blockchain décentralisée approuvée par la communauté scientifique afin de prévenir toute violation ou transaction frauduleuse.",
+        "title3": "Protection biométrique et authentification à deux étapes.",
+        "text3": "Vous pouvez choisir de vous identifier par code PIN ou votre empreinte digitale. Toute activité sur un nouvel appareil est vérifiée par un code unique reçu par SMS."
+    },
+    "Fqa": {
+        "title": "Questions Fréquentes",
+        "question1": "Comment ouvrir un compte IsyPay ?",
+        "question2": "Quelle est la différence entre les différentes formules de comptes IsyPay ?",
+        "question3": "Puis-je changer de formule de compte ?",
+        "question4": "Quels documents dois-je présenter pour ouvrir un compte IsyPay ?",
+        "question5": "Dois-je déposer de l’argent au moment de l’ouverture de mon compte ?",
+        "answer1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "answer2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "answer3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "answer4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "answer5": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    "footer": {
+        "Home": "Accueil",
+        "Particulier": "Particulier",
+        "Business": "Business",
+        "Developer": "Developer",
+        "Devenir Client": "DevenirClient",
+        "Devenir Agent": "DevenirAgent",
+        "About the company": "À propos de l'entreprise",
+        "text": "Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.",
+        "Download IsyPay": "Télécharger IsyPay",
+        "copyright": "© 2023 IsyPay. Tous droits réservés."
+    },
+    "carousel-bullet": {
+        "carousel-1": "Cadeau",
+        "carousel-2": "Restaurant",
+        "carousel-3": "Argent De Poche"
+    },
+    "how-it-works": {
+        "title": "Comment ça marche ?",
+        "text": "Avec IsyPay, finie la galère pour envoyer de l'argent à vos amis. Un simple numéro de téléphone vous suffit. Votre bénéficiaire est informé et recoit directement l'argent sur son IsyWallet."
+    },
+    "how-it-works2": {
+        "title": "Comment ça marche ?",
+        "text": "Avec IsyPay sur votre smartphone, vous réglez vos achats en toute simplicité en scannant le code QR généré. Il vous suffit de scanner le code avec votre téléphone, d'attendre la confirmation, et hop, c'est payé ! Profitez de cette praticité sans compromettre votre sécurité."
+    },
+    "Business": {
+        "title": "Proposez dès maintenant le paiement mobile à vos clients",
+        "text": "En ligne ou en magasin, j'accepte IsyPay en toute simplicité",
+        "codeQr-title": "Code QR pour les paiements en magasin",
+        "codeQr-text": "Affichez votre code QR sur votre IsyWallet et créez une expérience de paiement efficace à la caisse. Pas de gestion d’argent, pas de cash et de petite monnaie."
+    },
+    "developer": {
+        "miniText": "ISYPAY POUR LES DÉVELOPPEURS",
+        "title": "Des APIs pour accepter des paiements en ligne facilement",
+        "text": "Des solutions optimisées pour simplifier la procédure d'intégration du paiement en ligne en toute sécurité.",
+        "title-section2": "Intégration facile des APIs",
+        "text-section2": "Infrastructure de paiement pour le commerce en ligne avec des options d'intégrations flexibles. Même si vous n'avez pas de site web ou une équipe technique dédiée.",
+        "icon-title": "Intégrations préconfigurées",
+        "icon-text": "Intégrations conçues pour des systèmes tels que PrestaShop.",
+        "icon-title2": "Des outils adaptés à toutes les infrastructures",
+        "icon-text2": "Facile à intégrer via des appels REST."
+    },
+    "DevenirClient": {
+        "title": "Espace Client",
+        "text": "Particuliers ou Professionnels, profitez d'un accès simple et pratique à votre IsyWallet. Découvrez comment l'ouvrir à distance ou avec l'aide de la IsyTeam.",
+        "type1-title": "J’ouvre mon IsyWallet à distance",
+        "type1-button": "En savoir plus",
+        "type2-title": "J’ouvre mon IsyWallet par la IsyTeam"
+    },
+    "DevenirAgent": {
+        "title": "Espace Agent Partenaire",
+        "text": "Profite des commissions sur chaque ouverture de compte active et transaction réalisée",
+        "type1-title": "J’ouvre un compte Partenaire à distance",
+        "type1-button": "En savoir plus",
+        "type2-title": "J’ouvre un compte Partenaire par la IsyTeam"
+    },
+    "FormulaireClient": {
+        "title": "Je laisse mes coordonnées pour être contacté par IsyTeam",
+        "Particulier": "Particulier",
+        "Professionnel": "Professionnel",
+        "lastName": "Nom de famille",
+        "firstName": "Prenom",
+        "phoneNumber": "Numéro de téléphone",
+        "city": "Ville",
+        "activity": "Domaine d'activité",
+        "acceptTerms": "J'ai lu et j'accepte les conditions générales d'utilisation",
+        "button": "Envoyer"
+    },
+    "FormulaireAgent": {
+        "title": "Je veux être un Agent Partenaire de IsyPay",
+        "text": "Je laisse mes coordonnées pour être contacté par IsyTeam",
+        "lastName": "Nom de famille",
+        "firstName": "Prenom",
+        "phoneNumber": "Numéro de téléphone",
+        "city": "Ville",
+        "activity": "Domaine d'activité",
+        "acceptTerms": "J'ai lu et j'accepte les conditions générales d'utilisation",
+        "button": "Envoyer"
+    },
+    "IsyWallet": {
+        "title": "Télécharger l'application et créez votre IsyWallet",
+        "text": "Adieu les déplacements en agence, les formalités administratives, les files d'attente sans fin, créez votre IsyWallet, ou que vous soyez, quand vous le souhaitez, en quelques secondes seulement!!",
+        "title-step1": "Étape 1",
+        "text-step1": "Remplissez le formulaire avec les informations appropriées: N°Tel, Mdp",
+        "title-step2": "Étape 2",
+        "text-step2": "Activez votre compte à distance en fournissant le code de vérification",
+        "title-step3": "Étape 3",
+        "text-step3": "Hop! Commencez à Payez, envoyer et recevoir de l'argent!",
+        "title-step4": "Étape 4",
+        "text-step4": "Téléchargez les pièces d'identité nécessaires afin de dépassez le plafond de 200 000 CHF dans toutes vos opérations"
+    },
+    "ComptePartenaire": {
+        "title": "Téléchargez l’application et Créez votre compte Agent Partenaire",
+        "text": "Devenez un Agent Partenaire de IsyPay en quelques clics!",
+        "title-step1": "Étape 1",
+        "text-step1": "Remplissez le formulaire avec les informations appropriées: N°Tel, Mdp et cochez la case 'Compte Agent Partenaire'",
+        "title-step2": "Étape 2",
+        "text-step2": "Activez votre compte à distance en fournissant le code de vérification",
+        "title-step3": "Étape 3",
+        "text-step3": "Hop! Commencez à profitez des commissions attrayantes sur toutes vos transactions réalisées (dépôt/retrait)",
+        "title-step4": "Étape 4",
+        "text-step4": "Téléchargez les pièces d'identité nécessaires afin de dépassez le plafond de 200 000 CHF dans toutes vos opérations"
+    }
+}

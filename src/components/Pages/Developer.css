@@ -1,0 +1,194 @@
+.Developer-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.Developer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  padding: 20px;
+}
+
+.Developer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.Developer-text {
+  margin-bottom: 20px;
+}
+
+.Developer-text .Developer-heading-tagline {
+  font-size: 15px;
+  font-weight: bold;
+  color: #2E2E2E;
+  text-align: left;
+}
+
+.Developer-text .Developer-heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: #0E3EB3;
+  text-align: left;
+  margin-bottom: 15px;
+  width: 80%;
+}
+
+.Developer-text .Developer-sub-heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2E2E2E;
+  text-align: left;
+  width: 65%;
+  margin-bottom: 15px;
+}
+
+.Developer-image {
+  margin-top: -150px;
+}
+
+.Developer-image img {
+  max-width: 140%;
+  height: auto;
+}
+
+.api-integration-section {
+  background-color: #0E3EB3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.api-content {
+  flex: 1;
+  padding: 80px;
+}
+
+.api-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.api-description {
+  font-size: 17px;
+  color: #fff;
+}
+
+.api-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.api-icon {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.api-icon img {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.icon-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.icon-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  width: 150%;
+}
+
+.icon-text {
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.api-icon p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.api-image {
+  flex: 1;
+  text-align: center;
+}
+
+.api-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-apiSection {
+  background-color: #0E3EB3;
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 25px;
+  max-width: 80rem;
+  width: 100%;
+  display: flex;
+  height: 290px;
+}
+
+@media (max-width: 767px) {
+  .Developer-content {
+    margin-top: -20px;
+    margin-left: 20px;
+  }
+
+  .Developer-image {
+    display: none;
+  }
+
+  .Developer-text .Developer-heading {
+    font-size: 24px;
+  }
+
+  .Developer-text .Developer-sub-heading {
+    font-size: 16px;
+    width: 105%;
+  }
+
+  .Developer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .Developer-content {
+    margin: 0;
+  }
+
+  .Developer-image {
+    display: none;
+  }
+}

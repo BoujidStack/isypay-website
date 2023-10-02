@@ -1,0 +1,158 @@
+{
+    "navbar": {
+        "Particulier": "Individual",
+        "Business": "Business",
+        "Developer": "Developer",
+        "DevenirClient": "Become Client",
+        "DevenirAgent": "Become Agent"
+    },
+    "home": {
+        "title": "Easy, Fast, and Secure Mobile Payments with Blockchain",
+        "text": "With Isypay, pay, send, and receive money with friends for free using just a mobile number!"
+    },
+    "APropos": {
+        "titleSection": "About Us",
+        "text": "IsySend is a Malian fintech with an African focus that operates in the financial sector. Its mission is to contribute to the financial inclusion of African populations. IsySend develops the necessary tools to connect different actors in the financial ecosystem through a new innovative and decentralized infrastructure. It leverages disruptive technologies like Blockchain and AI to provide a more cost-effective, secure, and reliable service. IsyPay is the first product of 'IsySend'."
+    },
+    "ParticuliersouProfessionnels": {
+        "title": "Individuals or Professionals, benefit from easy, accessible, and inclusive financial services."
+    },
+    "TarificationIsyPay": {
+        "title": "IsyPay Pricing",
+        "text": "Transparent and easy-to-understand pricing. No hidden costs. No unexpected uncertainties.",
+        "Pricingdétaillé": "Detailed Pricing",
+        "Retrait": "Withdrawal",
+        "VousRetirez": "You withdraw",
+        "VousPayez": "You pay"
+    },
+    "card": {
+        "title": "Download the IsyPay Application",
+        "text": "Get the IsyPay application today to start enjoying incredible financial offers and a first-class payment experience."
+    },
+    "security": {
+        "title": "Your Security is Our Priority",
+        "text": "At IsyPay, we prioritize the security of your money, activities, and data. In this regard, we ensure that you have full control over every piece of information you submit, every transaction you initiate, and every new device you approve.",
+        "title1": "High-Level Data Protection and Authentication Protocols",
+        "text1": "Security ensured exclusively through cryptographic measures and robust authentication protocols (as opposed to simple access control/passwords). Identity of correspondents guaranteed without third-party trust.",
+        "title2": "Blockchain Infrastructure for Secure Money Transfers",
+        "text2": "All transactions are based on our decentralized blockchain infrastructure approved by the scientific community to prevent any breaches or fraudulent transactions.",
+        "title3": "Biometric Protection and Two-Step Authentication",
+        "text3": "You can choose to identify yourself with a PIN code or your fingerprint. Any activity on a new device is verified through a unique code received via SMS."
+    },
+    "Fqa": {
+        "title": "Frequently Asked Questions",
+        "question1": "How can I open an IsyPay account?",
+        "question2": "What is the difference between the different IsyPay account packages?",
+        "question3": "Can I change my account package?",
+        "question4": "What documents do I need to present to open an IsyPay account?",
+        "question5": "Do I need to deposit money when opening my account?",
+        "answer1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "answer2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "answer3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "answer4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "answer5": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    "footer": {
+        "Home": "Home",
+        "Particulier": "Individual",
+        "Business": "Business",
+        "Developer": "Developer",
+        "Devenir Client": "BecomeClient",
+        "Devenir Agent": "BecomeAgent",
+        "About the company": "About the Company",
+        "text": "Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.",
+        "Download IsyPay": "Download IsyPay",
+        "copyright": "© 2023 IsyPay. All rights reserved."
+    },
+    "carousel-bullet": {
+        "carousel-1": "Gift",
+        "carousel-2": "Restaurant",
+        "carousel-3": "Pocket Money"
+    },
+    "how-it-works": {
+        "title": "How It Works ?",
+        "text": "With IsyPay, sending money to your friends has never been easier. Just a phone number is all you need. Your recipient is notified and receives the money directly into their IsyWallet."
+    },
+    "how-it-works2": {
+        "title": "How It Works ?",
+        "text": "With IsyPay on your smartphone, you can easily make payments by scanning the generated QR code. Just scan the code with your phone, wait for confirmation, and voilà, it's paid! Enjoy this convenience without compromising your security."
+    },
+    "Business": {
+        "title": "Offer mobile payment to your customers now",
+        "text": "Online or in-store, I accept IsyPay with ease",
+        "codeQr-title": "QR Code for in-store payments",
+        "codeQr-text": "Display your QR code on your IsyWallet and create an efficient payment experience at the checkout. No cash handling, no change."
+    },
+    "developer": {
+        "miniText": "ISYPAY FOR DEVELOPERS",
+        "title": "APIs for accepting online payments easily",
+        "text": "Optimized solutions to simplify the online payment integration process securely.",
+        "title-section2": "Easy API Integration",
+        "text-section2": "Payment infrastructure for online commerce with flexible integration options. Even if you don't have a website or a dedicated technical team.",
+        "icon-title": "Preconfigured Integrations",
+        "icon-text": "Integrations designed for systems like PrestaShop.",
+        "icon-title2": "Tools suitable for all infrastructures",
+        "icon-text2": "Easy to integrate via REST calls."
+    },
+    "DevenirClient": {
+        "title": "Client Space",
+        "text": "Whether you are an individual or a professional, enjoy easy and convenient access to your IsyWallet. Discover how to open it remotely or with the help of the IsyTeam.",
+        "type1-title": "I open my IsyWallet remotely",
+        "type1-button": "Learn more",
+        "type2-title": "I open my IsyWallet with the IsyTeam"
+    },
+    "DevenirAgent": {
+        "title": "Partner Agent Space",
+        "text": "Enjoy commissions on every active account opening and transaction.",
+        "type1-title": "I open a Partner account remotely",
+        "type1-button": "Learn more",
+        "type2-title": "I open a Partner account with the IsyTeam"
+    },
+    "FormulaireClient": {
+        "title": "I leave my contact information to be contacted by IsyTeam",
+        "Particulier": "Individual",
+        "Professionnel": "Professional",
+        "lastName": "Last Name",
+        "firstName": "First Name",
+        "phoneNumber": "Phone Number",
+        "city": "City",
+        "activity": "Field of Activity",
+        "acceptTerms": "I have read and accept the general terms of use",
+        "button": "Send"
+    },
+    "FormulaireAgent": {
+        "title": "I want to be an Agent Partner of IsyPay",
+        "text": "I leave my contact information to be contacted by IsyTeam",
+        "lastName": "Last Name",
+        "firstName": "First Name",
+        "phoneNumber": "Phone Number",
+        "city": "City",
+        "activity": "Field of Activity",
+        "acceptTerms": "I have read and accept the general terms of use",
+        "button": "Send"
+    },
+    "IsyWallet": {
+        "title": "Download the app and create your IsyWallet",
+        "text": "Say goodbye to agency visits, paperwork, endless queues. Create your IsyWallet wherever you are, whenever you want, in just a few seconds!",
+        "title-step1": "Step 1",
+        "text-step1": "Fill out the form with the appropriate information: Phone number, Password",
+        "title-step2": "Step 2",
+        "text-step2": "Activate your account remotely by providing the verification code",
+        "title-step3": "Step 3",
+        "text-step3": "Hop! Start paying, sending, and receiving money!",
+        "title-step4": "Step 4",
+        "text-step4": "Download the necessary identification documents to exceed the 200,000 CHF limit in all your transactions."
+    },
+    "ComptePartenaire": {
+        "title": "Download the application and Create your Partner Agent account",
+        "text": "Become a Partner Agent of IsyPay in just a few clicks!",
+        "title-step1": "Step 1",
+        "text-step1": "Fill out the form with the appropriate information: Phone number, Password, and check the 'Partner Agent Account' box",
+        "title-step2": "Step 2",
+        "text-step2": "Activate your account remotely by providing the verification code",
+        "title-step3": "Step 3",
+        "text-step3": "Hop! Start enjoying attractive commissions on all your transactions (deposit/withdrawal)",
+        "title-step4": "Step 4",
+        "text-step4": "Download the necessary identification documents to exceed the 200,000 CHF limit in all your operations"
+    }
+}
