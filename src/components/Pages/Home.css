@@ -933,15 +933,16 @@ img {
   }
 
   .security-images {
-    flex-direction: column; /* Stack images vertically on mobile */
+    flex-direction: column;
     margin-top: 20px;
   }
 
   .security-images .imageSecurity {
-    flex-basis: 100%; /* Take up full width on mobile */
+    flex-basis: 100%;
     text-align: center;
     margin-bottom: 20px;
   }
+
   .security .title {
     font-size: 24px;
   }
