@@ -170,11 +170,12 @@
 
   .Developer-text .Developer-heading {
     font-size: 24px;
+    width: 100%;
   }
 
   .Developer-text .Developer-sub-heading {
     font-size: 16px;
-    width: 105%;
+    width: 90%;
   }
 
   .Developer-container {
@@ -189,6 +190,40 @@
   }
 
   .Developer-image {
+    display: none;
+  }
+
+  .api-title {
+    font-size: 30px;
+    width: 250%;
+    margin-left: -40px;
+
+  }
+
+  .api-description {
+    width: 250%;
+    margin-left: -40px;
+  }
+
+  .api-icon img {
+    width: 90px;
+    height: 90px;
+    margin-left: -50px;
+  }
+
+  .icon-title {
+    width: 200%;
+  }
+
+  .icon-text {
+    width: 170%;
+  }
+
+  .api-icon p {
+    width: 170%;
+  }
+
+  .api-image img {
     display: none;
   }
 }

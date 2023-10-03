@@ -46,12 +46,12 @@
         "question3": "Puis-je changer de formule de compte ?",
         "question4": "Quels documents dois-je présenter pour ouvrir un compte IsyPay ?",
         "question5": "Dois-je déposer de l’argent au moment de l’ouverture de mon compte ?",
-        "answer1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "answer2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "answer3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "answer4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "answer5": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    },
+        "answer1": "Pour ouvrir un compte IsyPay, téléchargez l'application, inscrivez-vous, choisissez le type de compte, et suivez les étapes de vérification.",
+        "answer2": "Les différentes formules de comptes IsyPay sont conçues pour les individus et les professionnels. Les comptes individuels permettent de payer d'autres individus ou professionnels, tandis que les comptes professionnels sont destinés aux entreprises pour recevoir des paiements.",
+        "answer3": "Oui, vous pouvez généralement changer de formule de compte IsyPay en modifiant les paramètres de votre compte dans l'application.",
+        "answer4": "Pour ouvrir un compte IsyPay, il n'est pas nécessaire de fournir des documents initialement. Cependant, lorsque vous souhaitez augmenter le solde de votre compte à plus de 200 000, des documents supplémentaires peuvent être requis conformément aux politiques et aux réglementations de l'application.",
+        "answer5": "Le montant initial de dépôt lors de l'ouverture d'un compte IsyPay peut varier selon les politiques locales, donc vérifiez les conditions spécifiques."
+    },    
     "footer": {
         "Home": "Accueil",
         "Particulier": "Particulier",

@@ -253,6 +253,28 @@
 
 
 @media (max-width: 768px) {
+  .how-it-works {
+    padding: 5px;
+    margin-top: 200px;
+  }
+
+  .how-it-works .title {
+    font-size: 24px;
+  }
+
+  .how-it-works .text {
+    font-size: 18px;
+  }
+
+  .how-it-works-two .title {
+    font-size: 24px;
+  }
+
+  .how-it-works-two .text {
+    font-size: 18px;
+  }
+
+
   .carousel {
     top: 80px;
     max-height: calc(100vh - 60px);
@@ -295,7 +317,7 @@
   }
 
   .carousel-bullet {
-    font-size: 16px;
+    font-size: 12px;
     padding: 3px 8px;
   }
 }

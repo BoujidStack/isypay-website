@@ -76,17 +76,17 @@ function Recurringsection() {
         <h1 className="title">{t('security.title')}</h1>
         <h1 className="text">{t('security.text')}</h1>
         <div className="security-images">
-          <div className="image">
+          <div className="imageSecurity">
             <img src={securityImg1} alt="Image 1" />
             <h2>{t('security.title1')}</h2>
             <p>{t('security.text1')}</p>
           </div>
-          <div className="image">
+          <div className="imageSecurity">
             <img src={securityImg2} alt="Image 2" />
             <h2>{t('security.title2')}</h2>
             <p>{t('security.text2')}</p>
           </div>
-          <div className="image">
+          <div className="imageSecurity">
             <img src={securityImg3} alt="Image 3" />
             <h2>{t('security.title3')}</h2>
             <p>{t('security.text3')}</p>

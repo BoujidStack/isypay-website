@@ -21,14 +21,14 @@ export const Business = () => {
         </div>
       </div>
 
-      <div class="codeQr">
-        <div class="codeQr-image">
+      <div className="codeQr">
+        <div className="codeQr-image">
           <img src={QrCode} alt="Image" />
         </div>
-        <div class="codeQr-content">
-          <div class="codeQr-text">
-            <h1 class="codeQr-heading">{t('Business.codeQr-title')}</h1>
-            <h1 class="codeQr-sub-heading">{t('Business.codeQr-text')}</h1>
+        <div className="codeQr-content">
+          <div className="codeQr-text">
+            <h1 className="codeQr-heading">{t('Business.codeQr-title')}</h1>
+            <h1 className="codeQr-sub-heading">{t('Business.codeQr-text')}</h1>
           </div>
         </div>
       </div>

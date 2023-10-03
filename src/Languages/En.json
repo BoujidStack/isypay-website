@@ -46,11 +46,11 @@
         "question3": "Can I change my account package?",
         "question4": "What documents do I need to present to open an IsyPay account?",
         "question5": "Do I need to deposit money when opening my account?",
-        "answer1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "answer2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "answer3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "answer4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "answer5": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "answer1": "To open an IsyPay account, download the application, sign up, choose the account type, and follow the verification steps.",
+        "answer2": "Different IsyPay account options are designed for individuals and professionals. Individual accounts allow you to pay other individuals or professionals, while professional accounts are intended for businesses to receive payments.",
+        "answer3": "Yes, you can usually change your IsyPay account type by modifying your account settings within the application.",
+        "answer4": "To open an IsyPay account, there is no need to provide documents initially. However, when you wish to increase your account balance to more than 200,000, additional documents may be required in accordance with the application's policies and regulations.",
+        "answer5": "The initial deposit amount when opening an IsyPay account may vary based on local policies, so please check the specific terms and conditions."
     },
     "footer": {
         "Home": "Home",

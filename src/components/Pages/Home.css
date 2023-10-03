@@ -157,7 +157,7 @@ img {
   margin: auto;
   overflow: hidden;
   position: relative;
-  width: 960px;
+  width: 370px;
   display: flex;
   align-items: center;
 }
@@ -413,25 +413,25 @@ img {
   margin-top: 200px;
 }
 
-.security-images .image {
+.security-images .imageSecurity {
   flex-basis: 30%;
   text-align: center;
   margin-bottom: 20px;
 }
 
-.security-images .image img {
+.security-images .imageSecurity img {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
 }
 
-.security-images .image h2 {
+.security-images .imageSecurity h2 {
   font-size: 18px;
   color: #0E3EB3;
   margin-bottom: 10px;
 }
 
-.security-images .image p {
+.security-images .imageSecurity p {
   font-size: 14px;
   color: #555555;
 }
@@ -764,12 +764,16 @@ img {
     margin-left: 0;
   }
 
+  .footer-distributed .footer-bottom h3 {
+    font-size: 28px;
+  }
+
 }
 
 @media (max-width: 767px) {
-  .content {
+  .container .content {
     margin-top: -20px;
-    margin-left: 20px;
+    margin-left: 25px;
   }
 
   .image {
@@ -778,11 +782,12 @@ img {
 
   .text .heading {
     font-size: 24px;
+    width: 80%;
   }
 
   .text .sub-heading {
     font-size: 16px;
-    width: 105%;
+    width: 80%;
   }
 
   .container {
@@ -794,6 +799,17 @@ img {
 
   .content {
     margin: 0;
+  }
+
+  .button1,
+  .button2 {
+    width: 150px;
+  }
+
+  .button-icon1,
+  .button-icon2 {
+    width: 25px;
+    height: 25px;
   }
 
   .image {
@@ -826,6 +842,10 @@ img {
     margin-top: 50px;
   }
 
+  .new-section h1 {
+    font-size: 24px;
+  }
+
   .new-section-images {
     flex-direction: column;
     margin-top: 10px;
@@ -835,12 +855,49 @@ img {
     margin: 10px 0;
   }
 
+  .tarification-section .title {
+    font-size: 24px;
+  }
+
+  .tarification-section .text {
+    font-size: 16px;
+  }
+
+  .pricing-retrait-section .double-titles .title1 {
+    font-size: 24px;
+  }
+
+  .pricing-retrait-section .double-titles .title2 {
+    font-size: 18px;
+  }
+
+  .coolinput label.text {
+    font-size: 0.6rem;
+  }
+
+  .coolinput input[type=text].input {
+    font-size: 0.6rem;
+  }
+
+  .pricing-retrait-section {
+    margin: 0;
+  }
+
+  .double-titles {
+    margin-bottom: 10px;
+  }
+
+  .coolinput {
+    margin: 10px 0;
+  }
+
   .tableTrif img {
-    max-width: 60%;
+    max-width: 50%;
   }
 
   .card {
     height: 585px;
+    width: 80%;
   }
 
   .card-content {
@@ -862,26 +919,53 @@ img {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    gap: 10px;
   }
 
   .bn45 {
-    width: 150px;
-    height: 40px;
+    width: 110px;
+    height: 35px;
   }
 
   .right-content img {
-    max-width: 80%;
+    max-width: 100%;
     margin-top: 10px;
   }
 
+  .security-images {
+    flex-direction: column; /* Stack images vertically on mobile */
+    margin-top: 20px;
+  }
+
+  .security-images .imageSecurity {
+    flex-basis: 100%; /* Take up full width on mobile */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .security .title {
+    font-size: 24px;
+  }
+
+  .security .text {
+    font-size: 18px;
+  }
 
   .faq-container {
     padding: 2rem;
-    min-width: 196.5%;
+    min-width: 30%;
+    margin-left: -20px;
   }
 
   .container-content {
     margin-top: 5rem;
+  }
+
+  .container-content h1 {
+    font-size: 24px;
+  }
+
+  .accordion-title {
+    font-size: 18px;
   }
 
   .accordion .accordion-item {
