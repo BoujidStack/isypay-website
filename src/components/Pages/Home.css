@@ -23,19 +23,20 @@
   margin-left: 50px;
 }
 
-.text {
+.content .text {
   margin-bottom: 20px;
 }
 
-.text .heading {
+.content .text .heading {
   font-size: 40px;
   font-weight: bold;
   color: #0E3EB3;
   text-align: left;
   margin-bottom: 15px;
+  width: 100%;
 }
 
-.text .sub-heading {
+.content .text .sub-heading {
   font-size: 18px;
   font-weight: bold;
   color: #2E2E2E;
@@ -101,12 +102,11 @@ button:hover {
   background-position: center left;
 }
 
-.image {
+.container .image {
   margin-top: -150px;
 }
 
-img {
-  max-width: 120%;
+.container .image img {
   height: auto;
 }
 
@@ -120,14 +120,11 @@ img {
 }
 
 .about-us-image {
-  max-width: 500px;
-  max-height: 450px;
   margin-right: 300px;
 }
 
 .about-us-image img {
-  max-width: 100%;
-  height: auto;
+  margin-left: 100px;
 }
 
 .about-us-text {
@@ -145,9 +142,10 @@ img {
 }
 
 .about-us-text h1 {
-  font-size: 18px;
+  font-size: 17px;
   color: #2E2E2E;
-  text-align: left;
+  text-align: center;
+  width: 89%;
 }
 
 
@@ -157,7 +155,7 @@ img {
   margin: auto;
   overflow: hidden;
   position: relative;
-  width: 370px;
+  width: 1000px;
   display: flex;
   align-items: center;
 }
@@ -203,9 +201,7 @@ img {
 }
 
 .new-section-images img {
-  max-width: 100%;
-  height: auto;
-  margin: 0 -105px;
+  margin: 0 -70px;
 }
 
 
@@ -583,6 +579,11 @@ img {
   width: 40%;
 }
 
+.footer-logo {
+  width: 200px;
+  height: 110px;
+}
+
 .footer-distributed h3 {
   color: #0E3EB3;
   margin: 0;
@@ -776,18 +777,18 @@ img {
     margin-left: 25px;
   }
 
-  .image {
+  .container .image {
     display: none;
   }
 
-  .text .heading {
+  .content .text .heading {
     font-size: 24px;
-    width: 80%;
+    max-width: 80%;
   }
 
-  .text .sub-heading {
+  .content .text .sub-heading {
     font-size: 16px;
-    width: 80%;
+    max-width: 80%;
   }
 
   .container {
@@ -823,9 +824,14 @@ img {
   }
 
   .about-us-image {
-    margin-right: 0;
+    margin-right: -10px;
     order: 2;
-    margin-top: 20px;
+  }
+  
+  .about-us-image img {
+    width: 250px;
+    height: 250px;
+    margin-left: -15px;
   }
 
   .about-us-text h2 {
@@ -837,9 +843,11 @@ img {
   }
 
   .about-us-text h1 {
-    font-size: 16px;
+    font-size: 15px;
     text-align: left;
     margin-top: 50px;
+    width: 97%;
+    text-align: center;
   }
 
   .new-section h1 {
@@ -892,7 +900,7 @@ img {
   }
 
   .tableTrif img {
-    max-width: 50%;
+    max-width: 80%;
   }
 
   .card {
@@ -943,6 +951,11 @@ img {
     margin-bottom: 20px;
   }
 
+  .security-images .imageSecurity img {
+    width: 200px;
+    height: 200px;
+  }
+
   .security .title {
     font-size: 24px;
   }
@@ -976,5 +989,9 @@ img {
 
   .accordion button .icon {
     right: -30px;
+  }
+
+  .slider {
+    width: 370px;
   }
 }

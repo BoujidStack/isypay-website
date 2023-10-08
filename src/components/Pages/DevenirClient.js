@@ -1,6 +1,6 @@
 import "./DevenirClient.css";
-import DevenirClientImg from '../../assets/devenirClientImg.png'
-import React, { useState } from "react";
+import DevenirClientImg from '../../assets/devenirClientImg.svg'
+import React from "react";
 import devenirClientImg1 from '../../assets/devenirClientImg1.png';
 import devenirClientImg2 from '../../assets/devenirClientImg2.png';
 import { Link } from 'react-router-dom';
@@ -20,14 +20,14 @@ export const DevenirClient = () => {
           </div>
         </div>
         <div className="DevenirClient-image">
-          <img src={DevenirClientImg} alt="Image" />
+          <img src={DevenirClientImg} alt="DevenirClient" />
         </div>
       </div>
 
       <div className="types-image-section-client">
         <div className="types-image-container-client">
           <div className="types-image-client">
-            <img src={devenirClientImg1} alt="Image 1" />
+            <img src={devenirClientImg1} alt="typesclient" />
             <div className="overlay-client">
               <h2>{t('DevenirClient.type1-title')}</h2>
               <button>
@@ -36,7 +36,7 @@ export const DevenirClient = () => {
             </div>
           </div>
           <div className="types-image-client">
-            <img src={devenirClientImg2} alt="Image 2" />
+            <img src={devenirClientImg2} alt="typesclient" />
             <div className="overlay-client">
               <h2>{t('DevenirClient.type2-title')}</h2>
               <button>

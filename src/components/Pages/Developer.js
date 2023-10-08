@@ -1,6 +1,6 @@
 import "./Developer.css";
-import DeveloperImg from '../../assets/developerImg.png'
-import React, { useState } from "react";
+import DeveloperImg from '../../assets/developerImg.svg'
+import React from "react";
 import apiIntegrationImage from '../../assets/apiIntegrationImage.png';
 import iconImage1 from '../../assets/iconImage1.png';
 import iconImage2 from '../../assets/iconImage2.png';
@@ -23,7 +23,7 @@ export const Developer = () => {
           </div>
         </div>
         <div className="Developer-image">
-          <img src={DeveloperImg} alt="Image" />
+          <img src={DeveloperImg} alt="Developer" width={600} height={600}/>
         </div>
       </div>
 
@@ -33,14 +33,14 @@ export const Developer = () => {
           <h1 className="api-description">{t('developer.text-section2')}</h1>
           <div className="api-icons">
             <div className="api-icon">
-              <img src={iconImage1} alt="Icon 1" />
+              <img src={iconImage1} alt="Icon" />
               <div className="icon-text-container">
                 <h4 className="icon-title">{t('developer.icon-title')}</h4>
                 <p className="icon-text">{t('developer.icon-text')}</p>
               </div>
             </div>
             <div className="api-icon">
-              <img src={iconImage2} alt="Icon 2" />
+              <img src={iconImage2} alt="Icon" />
               <div className="icon-text-container">
                 <h4 className="icon-title">{t('developer.icon-title2')}</h4>
                 <p className="icon-text">{t('developer.icon-text2')}</p>
@@ -49,7 +49,7 @@ export const Developer = () => {
           </div>
         </div>
         <div className="api-image">
-          <img src={apiIntegrationImage} width={500} height={500} alt="API Integration Image" />
+          <img src={apiIntegrationImage} width={500} height={500} alt="APIintegration" />
         </div>
       </div>
       <br /><br />

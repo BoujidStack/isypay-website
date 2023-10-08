@@ -1,18 +1,23 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
-import { useTranslation } from 'react-i18next';
-import i18n from '../components/i18n';
+import { useTranslation } from "react-i18next";
+import i18n from "../components/i18n";
 import "./NavBar.css";
-import logo from '../assets/logo/IsyPay-logo.png'
-import { FaChevronDown } from 'react-icons/fa';
-import usaFlagIcon from '../assets/flags/usa.png';
-import franceFlagIcon from '../assets/flags/fr.png';
+import logo from "../assets/logo/IsyPay-logo.svg";
+import usaFlagIcon from "../assets/flags/usa.svg";
+import franceFlagIcon from "../assets/flags/fr.svg";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { FaChevronDown } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 function NavBar() {
   const [click, setClick] = useState(false);
   const [languageMenuOpen, setLanguageMenuOpen] = useState(false);
   const { t, i18n } = useTranslation();
-  const handleClick = () => setClick(!click);
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    setClick(!click);
+  };
 
   const handleLanguageClick = () => {
     setLanguageMenuOpen(!languageMenuOpen);
@@ -21,117 +26,105 @@ function NavBar() {
   const handleLanguageSelect = (language) => {
     i18n.changeLanguage(language);
     setLanguageMenuOpen(false);
-    localStorage.setItem('selectedLanguage', language);
+    localStorage.setItem("selectedLanguage", language);
     window.location.reload();
   };
 
+  const handleNavigation = (path) => {
+    navigate(path);
+    setClick(false);
+  };
 
   return (
-    <>
-      <nav className="navbar">
-        <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
-            <img src={logo} alt="CodeBucks Logo" height={150} width={150} />
-          </NavLink>
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/Particulier"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
+    <nav className="navbar">
+      <div className="nav-container">
+        <span
+          className="nav-logo"
+          onClick={() => handleNavigation("/")}
+        >
+          <img src={logo} alt="CodeBucks Logo" height={150} width={150} />
+        </span>
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <li className="nav-item">
+            <span
+              className="nav-links"
+              onClick={() => handleNavigation("/Particulier")}
+            >
+              {t("navbar.Particulier")}
+            </span>
+          </li>
+          <li className="nav-item">
+            <span
+              className="nav-links"
+              onClick={() => handleNavigation("/Business")}
+            >
+              {t("navbar.Business")}
+            </span>
+          </li>
+          <li className="nav-item">
+            <span
+              className="nav-links"
+              onClick={() => handleNavigation("/Developer")}
+            >
+              {t("navbar.Developer")}
+            </span>
+          </li>
+          <li className="nav-itemTwoButtons">
+            <span
+              className="nav-links green-bg"
+              onClick={() => handleNavigation("/Devenir Client")}
+            >
+              {t("navbar.DevenirClient")}
+            </span>
+          </li>
+          <li className="nav-itemTwoButtons">
+            <span
+              className="nav-links blue-bg"
+              onClick={() => handleNavigation("/Devenir Agent")}
+            >
+              {t("navbar.DevenirAgent")}
+            </span>
+          </li>
+          <li className="nav-itemLanguage">
+            <div className="language-dropdown">
+              <div
+                className="selected-language"
+                onClick={handleLanguageClick}
               >
-                {t("navbar.Particulier")}
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/Business"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                {t("navbar.Business")}
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/Developer"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                {t("navbar.Developer")}
-              </NavLink>
-            </li>
-            <li className="nav-itemTwoButtons">
-              <NavLink
-                exact
-                to="/Devenir Client"
-                activeClassName="active"
-                className="nav-links green-bg"
-                onClick={handleClick}
-              >
-                {t("navbar.DevenirClient")}
-              </NavLink>
-            </li>
-            <li className="nav-itemTwoButtons">
-              <NavLink
-                exact
-                to="/Devenir Agent"
-                activeClassName="active"
-                className="nav-links blue-bg"
-                onClick={handleClick}
-              >
-                {t("navbar.DevenirAgent")}
-              </NavLink>
-            </li>
-            <li className="nav-itemLanguage">
-              <div className="language-dropdown">
-                <div
-                  className="selected-language"
-                  onClick={handleLanguageClick}
-                >
-                  <img
-                    src={
-                      i18n.language === "en"
-                        ? usaFlagIcon
-                        : franceFlagIcon
-                    }
-                    alt={
-                      i18n.language === "en"
-                        ? "USA Flag"
-                        : "France Flag"
-                    }
-                    className="flag-icon"
-                  />
-                  <span>{i18n.language.toUpperCase()}</span>
-                  <FaChevronDown />
-                </div>
-                {languageMenuOpen && (
-                  <ul className="language-options">
-                    <li onClick={() => handleLanguageSelect("en")}>
-                      <img src={usaFlagIcon} alt="USA Flag" className="flag-icon" />
-                      English
-                    </li>
-                    <li onClick={() => handleLanguageSelect("fr")}>
-                      <img src={franceFlagIcon} alt="France Flag" className="flag-icon" />
-                      Francais
-                    </li>
-                  </ul>
-                )}
+                <img
+                  src={
+                    i18n.language === "en" ? usaFlagIcon : franceFlagIcon
+                  }
+                  alt={i18n.language === "en" ? "USA Flag" : "France Flag"}
+                  className="flag-icon"
+                />
+                <span>{i18n.language.toUpperCase()}</span>
+                <FaChevronDown />
               </div>
-            </li>
-          </ul>
-          <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
-          </div>
+              {languageMenuOpen && (
+                <ul className="language-options">
+                  <li onClick={() => handleLanguageSelect("en")}>
+                    <img src={usaFlagIcon} alt="USA Flag" className="flag-icon" />
+                    English
+                  </li>
+                  <li onClick={() => handleLanguageSelect("fr")}>
+                    <img src={franceFlagIcon} alt="France Flag" className="flag-icon" />
+                    Francais
+                  </li>
+                </ul>
+              )}
+            </div>
+          </li>
+        </ul>
+        <div className="nav-icon" onClick={handleClick}>
+          {click ? (
+            <AiOutlineClose className="menu-icon" />
+          ) : (
+            <AiOutlineMenu className="menu-icon" />
+          )}
         </div>
-      </nav>
-    </>
+      </div>
+    </nav>
   );
 }
 

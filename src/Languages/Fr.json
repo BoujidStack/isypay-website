@@ -59,8 +59,9 @@
         "Developer": "Developer",
         "Devenir Client": "DevenirClient",
         "Devenir Agent": "DevenirAgent",
+        "Termes et Conditions": "Termes et Conditions",
         "About the company": "À propos de l'entreprise",
-        "text": "Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.",
+        "text": "IsySend est une fintech africaine basée au Mali, spécialisée dans l'inclusion financière. Ils utilisent la technologie blockchain et l'IA pour créer une infrastructure financière innovante et décentralisée. Leur premier produit s'appelle IsyPay.",
         "Download IsyPay": "Télécharger IsyPay",
         "copyright": "© 2023 IsyPay. Tous droits réservés."
     },
@@ -154,5 +155,27 @@
         "text-step3": "Hop! Commencez à profitez des commissions attrayantes sur toutes vos transactions réalisées (dépôt/retrait)",
         "title-step4": "Étape 4",
         "text-step4": "Téléchargez les pièces d'identité nécessaires afin de dépassez le plafond de 200 000 CHF dans toutes vos opérations"
+    },
+    "TermesAndConditions": {
+        "Title": "CONDITIONS GENERALES ISYPAY",
+        "text": "Chez IsyPay, nous nous engageons à protéger vos informations personnelles et financières lorsque vous utilisez notre application mobile de paiement. Votre confiance est pour nous d'une importance capitale, et nous prenons la protection des données très au sérieux. Ci-dessous se trouve notre déclaration de confidentialité, qui expose notre engagement à maintenir les normes les plus élevées en matière de sécurité des données :",
+        "section-title1": "Chiffrement des Données :",
+        "section-text1": "Toutes les données transmises entre votre appareil et nos serveurs sont cryptées à l'aide de protocoles conformes aux normes de l'industrie. Cela garantit que vos informations de paiement restent confidentielles et sécurisées pendant la transmission.",
+        "section-title2": "Authentification Sécurisée :",
+        "section-text2": "Nous utilisons des méthodes d'authentification multi-facteurs pour vérifier votre identité et protéger votre compte contre tout accès non autorisé, ajoutant ainsi une couche supplémentaire de sécurité à vos transactions.",
+        "section-title3": "Informations Personnelles :",
+        "section-text3": "Nous ne collectons que les informations personnelles nécessaires à la fourniture de nos services. Vos données sont stockées en toute sécurité et ne sont jamais partagées avec des tiers sans votre consentement explicite.",
+        "section-title4": "Historique des Transactions :",
+        "section-text4": "Votre historique de transactions est stocké en toute sécurité dans notre système pour vous fournir des enregistrements précis. L'accès à ces informations est limité au personnel autorisé uniquement.",
+        "section-title5": "Surveillance Continue :",
+        "section-text5": "Notre équipe de sécurité effectue régulièrement des évaluations et des surveillances pour détecter et atténuer les menaces ou vulnérabilités potentielles dans notre système.",
+        "section-title6": "Conformité aux Réglementations :",
+        "section-text6": "Nous respectons toutes les réglementations pertinentes en matière de protection des données et de confidentialité, garantissant que vos données sont traitées conformément aux normes les plus élevées.",
+        "section-title7": "Éducation des Utilisateurs :",
+        "section-text7": "Nous fournissons des ressources éducatives et des conseils sur la manière de maintenir la sécurité de votre compte et de vos informations personnelles.",
+        "section-title8": "Suppression des Données :",
+        "section-text8": "Vous avez le droit de demander la suppression de votre compte et des données associées à tout moment, sous réserve de nos politiques de conservation des données et de nos obligations légales.",
+        "section-title9": "Contact et Support :",
+        "section-text9": "Si vous avez des préoccupations ou des questions concernant la confidentialité et la sécurité de vos données, veuillez contacter notre équipe de support. Nous sommes là pour vous aider rapidement. En utilisant notre application mobile de paiement, vous nous confiez vos données, et nous prenons cette responsabilité très au sérieux. Nous nous engageons à maintenir la confidentialité et la sécurité de vos informations, en améliorant constamment nos mesures de sécurité pour vous protéger contre les menaces émergentes. Votre confiance est notre priorité absolue, et nous apprécions votre partenariat pour garantir la sécurité de vos informations financières lors de l'utilisation de notre application mobile de paiement."
     }
 }

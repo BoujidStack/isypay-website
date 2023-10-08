@@ -1,24 +1,24 @@
 import React, { useState } from "react";
 import "./Particulier.css";
-import carouselImg from '../../assets/carouselImg1.png';
-import carouselImg3 from '../../assets/carouselImg3.png';
-import carouselImg2 from '../../assets/carouselImg2.png';
-import carouselImgEnglish from '../../assets/carouselImgEnglish.png';
-import carouselImg3English from '../../assets/carouselImg3English.png';
-import carouselImg2English from '../../assets/carouselImg2English.png';
-import payerEnMagasin from '../../assets/payerEnMagasin.png'
-import payerEnMagasinEnglish from '../../assets/payerEnMagasinEnglish.png';
-import howItWorksImg from '../../assets/howItWorksImg.png';
-import howItWorksImgEnglish from '../../assets/howItWorksImgEnglish.png';
-import howItWorks2Img from '../../assets/howItWorks2Img.png';
-import howItWorks2ImgEnglish from '../../assets/howItWorks2ImgEnglish.png';
+import carouselImg from '../../assets/carouselImg1.svg';
+import carouselImg3 from '../../assets/carouselImg3.svg';
+import carouselImg2 from '../../assets/carouselImg2.svg';
+import carouselImgEnglish from '../../assets/carouselImgEnglish.svg';
+import carouselImg3English from '../../assets/carouselImg3English.svg';
+import carouselImg2English from '../../assets/carouselImg2English.svg';
+import payerEnMagasin from '../../assets/payerEnMagasin.svg'
+import payerEnMagasinEnglish from '../../assets/payerEnMagasinEnglish.svg';
+import howItWorksImg from '../../assets/howItWorksImg.svg';
+import howItWorksImgEnglish from '../../assets/howItWorksImgEnglish.svg';
+import howItWorks2Img from '../../assets/howItWorks2Img.svg';
+import howItWorks2ImgEnglish from '../../assets/howItWorks2ImgEnglish.svg';
 import { useTranslation } from 'react-i18next';
 import Recurringsection from "./Recurringsection";
 
 export const Particulier = () => {
   const [currentSlide, setCurrentSlide] = useState(1);
   const { t, i18n } = useTranslation();
-  const [currentLanguage, setCurrentLanguage] = useState(i18n.language);
+  const [currentLanguage] = useState(i18n.language);
   const handleSlideChange = (slideNumber) => {
     setCurrentSlide(slideNumber);
   };

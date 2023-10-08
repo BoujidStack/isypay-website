@@ -1,6 +1,6 @@
 import "./DevenirAgent.css";
-import DevenirAgentImg from '../../assets/devenirAgentImg.png'
-import React, { useState } from "react";
+import DevenirAgentImg from '../../assets/devenirAgentImg.svg'
+import React from "react";
 import devenirAgentImg1 from '../../assets/devenirAgentImg1.png';
 import devenirAgentImg2 from '../../assets/devenirAgentImg2.png';
 import { Link } from 'react-router-dom';
@@ -20,14 +20,14 @@ export const DevenirAgent = () => {
           </div>
         </div>
         <div className="DevenirAgent-image">
-          <img src={DevenirAgentImg} alt="Image" />
+          <img src={DevenirAgentImg} alt="Devenir Agent Image" width={550} height={550} />
         </div>
       </div>
 
       <div className="types-image-section">
         <div className="types-image-container">
           <div className="types-image">
-            <img src={devenirAgentImg2} alt="Image 1" />
+            <img src={devenirAgentImg2} alt="Devenir Agent Image" />
             <div className="overlay">
               <h2>{t('DevenirAgent.type1-title')}</h2>
               <button>
@@ -36,7 +36,7 @@ export const DevenirAgent = () => {
             </div>
           </div>
           <div className="types-image">
-            <img src={devenirAgentImg1} alt="Image 2" />
+            <img src={devenirAgentImg1} alt="Devenir Agent Image" />
             <div className="overlay">
               <h2>{t('DevenirAgent.type2-title')}</h2>
               <button>

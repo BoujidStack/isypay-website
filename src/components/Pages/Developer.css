@@ -40,7 +40,7 @@
   color: #0E3EB3;
   text-align: left;
   margin-bottom: 15px;
-  width: 80%;
+  width: 100%;
 }
 
 .Developer-text .Developer-sub-heading {
@@ -48,7 +48,7 @@
   font-weight: bold;
   color: #2E2E2E;
   text-align: left;
-  width: 65%;
+  width: 80%;
   margin-bottom: 15px;
 }
 
@@ -56,10 +56,7 @@
   margin-top: -150px;
 }
 
-.Developer-image img {
-  max-width: 140%;
-  height: auto;
-}
+
 
 .api-integration-section {
   background-color: #0E3EB3;

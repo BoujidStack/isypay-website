@@ -33,7 +33,7 @@
   color: #0E3EB3;
   text-align: left;
   margin-bottom: 15px;
-  width: 80%;
+  width: 90%;
 }
 
 .Business-text .Business-sub-heading {
@@ -41,7 +41,6 @@
   font-weight: bold;
   color: #2E2E2E;
   text-align: left;
-  width: 65%;
   margin-bottom: 15px;
 }
 
@@ -49,10 +48,6 @@
   margin-top: -150px;
 }
 
-.Business-image img {
-  max-width: 140%;
-  height: auto;
-}
 
 .codeQr {
   display: flex;
@@ -117,10 +112,6 @@
 
   .Business-content {
     margin: 0;
-  }
-
-  .Business-image {
-    display: none;
   }
 
   .codeQr {

@@ -1,26 +1,13 @@
 import React, { useState } from "react";
-import image1 from '../../assets/ImagesSlider/image1.png';
-import image2 from '../../assets/ImagesSlider/image2.png';
-import image3 from '../../assets/ImagesSlider/image3.png';
-import image4 from '../../assets/ImagesSlider/image4.png';
-import image5 from '../../assets/ImagesSlider/image5.png';
-import IsypayImg from '../../assets/isypayApp.png';
+import IsypayImg from '../../assets/isypayApp.svg';
 import securityImg1 from '../../assets/securityImages/securityImg1.gif';
 import securityImg2 from '../../assets/securityImages/securityImg2.gif';
 import securityImg3 from '../../assets/securityImages/securityImg3.gif';
-import logoFooter from '../../assets/IsypayLogoFooter.png';
+import logoFooter from '../../assets/IsypayLogoFooter.svg';
 import { useTranslation } from 'react-i18next';
-
-const imageUrls = [
-  image1,
-  image2,
-  image3,
-  image4,
-  image5,
-];
+import { FaFacebook, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Recurringsection() {
-  const duplicatedImageUrls = [...imageUrls, ...imageUrls];
   const [expandedItem, setExpandedItem] = useState(null);
   const { t } = useTranslation();
   const toggleAccordion = (index) => {
@@ -55,18 +42,18 @@ function Recurringsection() {
   ];
   return (
     <div className="main-container">
-      <div class="card">
-        <div class="card-content">
-          <div class="left-content">
+      <div className="card">
+        <div className="card-content">
+          <div className="left-content">
             <h2 className="title">{t('card.title')}</h2>
             <p className="text">{t('card.text')}</p>
-            <div class="cardButtons">
-              <a href="/" tabIndex="0"><img class="bn45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="bn45" /></a>
-              <a href="/" tabIndex="0"><img class="bn45" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="bn45" /></a>
+            <div className="cardButtons">
+              <a href="/" tabIndex="0"><img className="bn45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="bn45" /></a>
+              <a href="/" tabIndex="0"><img className="bn45" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="bn45" /></a>
             </div>
           </div>
-          <div class="right-content">
-            <img src={IsypayImg} alt="Image" />
+          <div className="right-content">
+            <img src={IsypayImg} alt="right-content" />
           </div>
         </div>
       </div>
@@ -77,17 +64,17 @@ function Recurringsection() {
         <h1 className="text">{t('security.text')}</h1>
         <div className="security-images">
           <div className="imageSecurity">
-            <img src={securityImg1} alt="Image 1" />
+            <img src={securityImg1} alt="Security" width={300} height={300} />
             <h2>{t('security.title1')}</h2>
             <p>{t('security.text1')}</p>
           </div>
           <div className="imageSecurity">
-            <img src={securityImg2} alt="Image 2" />
+            <img src={securityImg2} alt="Security" width={300} height={300} />
             <h2>{t('security.title2')}</h2>
             <p>{t('security.text2')}</p>
           </div>
           <div className="imageSecurity">
-            <img src={securityImg3} alt="Image 3" />
+            <img src={securityImg3} alt="Security" width={300} height={300}  />
             <h2>{t('security.title3')}</h2>
             <p>{t('security.text3')}</p>
           </div>
@@ -129,20 +116,21 @@ function Recurringsection() {
 
       <footer className="footer-distributed">
         <div className="footer-left">
-          <img src={logoFooter} width={200} height={200} />
+          <img className="footer-logo" src={logoFooter} alt="footer-logo"/>
           <p className="footer-links">
-            <a href="#" className="link-1">{t('footer.Home')}</a>
-            <a href="#">{t('footer.Particulier')}</a>
-            <a href="#">{t('footer.Business')}</a>
-            <a href="#">{t('footer.Developer')}</a>
-            <a href="#">{t('footer.Devenir Client')}</a>
-            <a href="#">{t('footer.Devenir Agent')}</a>
+            <a href="/" className="link-1">{t('footer.Home')}</a>
+            <a href="/Particulier">{t('footer.Particulier')}</a>
+            <a href="/Business">{t('footer.Business')}</a>
+            <a href="/Developer">{t('footer.Developer')}</a>
+            <a href="/Devenir Client">{t('footer.Devenir Client')}</a>
+            <a href="/Devenir Agent">{t('footer.Devenir Agent')}</a>
+            <a href="/conditions">{t('footer.Termes et Conditions')}</a>
           </p>
         </div>
         <div className="footer-center">
           <div>
             <i className="fa fa-map-marker"></i>
-            <p><span>2972 Westheimer Rd.</span> Santa Ana, Illinois 85486</p>
+            <p><span>Bamako/Sebenicoro, Cité M’Boua KEITA,</span> Immeuble 18. MALI</p>
           </div>
           <div>
             <i className="fa fa-phone"></i>
@@ -150,7 +138,7 @@ function Recurringsection() {
           </div>
           <div>
             <i className="fa fa-envelope"></i>
-            <p><a href="mailto:support@company.com">IsyPay@gmail.com</a></p>
+            <p><a href="mailto:support@company.com">Contact@isypay.net</a></p>
           </div>
         </div>
         <div className="footer-right">
@@ -159,10 +147,10 @@ function Recurringsection() {
             {t('footer.text')}
           </p>
           <div className="footer-icons">
-            <a href="#"><i className="fa fa-facebook"></i></a>
-            <a href="#"><i className="fa fa-twitter"></i></a>
-            <a href="#"><i className="fa fa-linkedin"></i></a>
-            <a href="#"><i className="fa fa-github"></i></a>
+            <a href="#"><FaFacebook /></a>
+            <a href="#"><FaTwitter /></a>
+            <a href="#"><FaLinkedin /></a>
+            <a href="#"><FaGithub /></a>
           </div>
         </div>
         <div className="footer-bottom">

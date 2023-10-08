@@ -11,6 +11,7 @@ import FormulaireClient from "./components/Pages/FormulaireClient";
 import FormulaireAgent from "./components/Pages/FormulaireAgent";
 import IsyWalletSteps from "./components/Pages/IsyWalletSteps";
 import ComptePartenaire from "./components/Pages/ComptePartenaire";
+import TermesAndConditions from "./components/Pages/TermesAndConditions";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route path="/Formulaire-Agent" element={<FormulaireAgent />} />
             <Route path="/IsyWallet" element={<IsyWalletSteps />} />
             <Route path="/Compte-Partenaire" element={<ComptePartenaire />} />
+            <Route path="/conditions" element={<TermesAndConditions />} />
           </Routes>
         </div>
       </Router>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Business.css";
-import businessImg from '../../assets/businessImg.png'
-import QrCode from '../../assets/QrCode.png'
+import businessImg from '../../assets/businessImg.svg'
+import QrCode from '../../assets/QrCode.svg'
 import { useTranslation } from 'react-i18next';
 import Recurringsection from "./Recurringsection";
 
@@ -17,13 +17,13 @@ export const Business = () => {
           </div>
         </div>
         <div className="Business-image">
-          <img src={businessImg} alt="Image" />
+          <img src={businessImg} alt="Business" width={550} height={550}/>
         </div>
       </div>
 
       <div className="codeQr">
         <div className="codeQr-image">
-          <img src={QrCode} alt="Image" />
+          <img src={QrCode} alt="Business" />
         </div>
         <div className="codeQr-content">
           <div className="codeQr-text">
