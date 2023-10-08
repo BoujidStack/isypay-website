@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import i18n from "../components/i18n";
 import "./NavBar.css";
 import logo from "../assets/logo/IsyPay-logo.svg";
 import usaFlagIcon from "../assets/flags/usa.svg";
