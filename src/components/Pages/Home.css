@@ -861,6 +861,8 @@ button:hover {
 
   .new-section-images img {
     margin: 10px 0;
+    width: 375px;
+    height: 375px;
   }
 
   .tarification-section .title {
