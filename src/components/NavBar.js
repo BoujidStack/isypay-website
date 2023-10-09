@@ -1,18 +1,19 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import i18n from "../components/i18n";
 import "./NavBar.css";
 import logo from "../assets/logo/IsyPay-logo.svg";
 import usaFlagIcon from "../assets/flags/usa.svg";
 import franceFlagIcon from "../assets/flags/fr.svg";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaChevronDown } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 function NavBar() {
   const [click, setClick] = useState(false);
   const [languageMenuOpen, setLanguageMenuOpen] = useState(false);
   const { t, i18n } = useTranslation();
-  const navigate = useNavigate();
+  const navigate = useNavigate(); // Get the navigate function
 
   const handleClick = () => {
     setClick(!click);
@@ -30,8 +31,9 @@ function NavBar() {
   };
 
   const handleNavigation = (path) => {
+    // Programmatically navigate to the specified path
     navigate(path);
-    setClick(false);
+    setClick(false); // Close the menu after navigation
   };
 
   return (
@@ -39,7 +41,7 @@ function NavBar() {
       <div className="nav-container">
         <span
           className="nav-logo"
-          onClick={() => handleNavigation("/")}
+          onClick={() => handleNavigation("/")} // Handle logo click
         >
           <img src={logo} alt="CodeBucks Logo" height={150} width={150} />
         </span>

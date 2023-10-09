@@ -10,6 +10,7 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 function Recurringsection() {
   const [expandedItem, setExpandedItem] = useState(null);
   const { t } = useTranslation();
+
   const toggleAccordion = (index) => {
     if (expandedItem === index) {
       setExpandedItem(null);
@@ -40,6 +41,7 @@ function Recurringsection() {
       answer: t("Fqa.answer5"),
     },
   ];
+
   return (
     <div className="main-container">
       <div className="card">
@@ -48,39 +50,41 @@ function Recurringsection() {
             <h2 className="title">{t('card.title')}</h2>
             <p className="text">{t('card.text')}</p>
             <div className="cardButtons">
-              <a href="/" tabIndex="0"><img className="bn45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="bn45" /></a>
-              <a href="/" tabIndex="0"><img className="bn45" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="bn45" /></a>
+              <a href="/" tabIndex="0">
+                <img className="bn45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="Google Play" />
+              </a>
+              <a href="/" tabIndex="0">
+                <img className="bn45" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" />
+              </a>
             </div>
           </div>
           <div className="right-content">
-            <img src={IsypayImg} alt="right-content" />
+            <img src={IsypayImg} alt="Isypay App" />
           </div>
         </div>
       </div>
 
-
       <div className="security">
         <h1 className="title">{t('security.title')}</h1>
-        <h1 className="text">{t('security.text')}</h1>
+        <p className="text">{t('security.text')}</p>
         <div className="security-images">
           <div className="imageSecurity">
-            <img src={securityImg1} alt="Security" width={300} height={300} />
+            <img src={securityImg1} alt="Security 1" width={300} height={300} />
             <h2>{t('security.title1')}</h2>
             <p>{t('security.text1')}</p>
           </div>
           <div className="imageSecurity">
-            <img src={securityImg2} alt="Security" width={300} height={300} />
+            <img src={securityImg2} alt="Security 2" width={300} height={300} />
             <h2>{t('security.title2')}</h2>
             <p>{t('security.text2')}</p>
           </div>
           <div className="imageSecurity">
-            <img src={securityImg3} alt="Security" width={300} height={300}  />
+            <img src={securityImg3} alt="Security 3" width={300} height={300} />
             <h2>{t('security.title3')}</h2>
             <p>{t('security.text3')}</p>
           </div>
         </div>
       </div>
-
 
       <div className="faq-container" name="fqa">
         <div className="container-content">
@@ -112,13 +116,11 @@ function Recurringsection() {
         </div>
       </div>
 
-
-
       <footer className="footer-distributed">
         <div className="footer-left">
-          <img className="footer-logo" src={logoFooter} alt="footer-logo"/>
+          <img className="footer-logo" src={logoFooter} alt="Isypay Logo" />
           <p className="footer-links">
-            <a href="/" className="link-1">{t('footer.Home')}</a>
+            <a href="/">{t('footer.Home')}</a>
             <a href="/Particulier">{t('footer.Particulier')}</a>
             <a href="/Business">{t('footer.Business')}</a>
             <a href="/Developer">{t('footer.Developer')}</a>
@@ -157,14 +159,18 @@ function Recurringsection() {
           <h3>{t('footer.Download IsyPay')}</h3>
           <br />
           <div className="buttons">
-            <a href="/" tabIndex="0"><img className="bn45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="bn45" /></a>
-            <a href="/" tabIndex="0"><img className="bn45" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="bn45" /></a>
+            <a href="/" tabIndex="0">
+              <img className="bn45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="Google Play" />
+            </a>
+            <a href="/" tabIndex="0">
+              <img className="bn45" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" />
+            </a>
           </div>
           <p className="company-name"> © {new Date().getFullYear()} <span className="isypayCopy">IsyPay</span>. {t('footer.copyright')}</p>
         </div>
       </footer>
     </div>
-  )
+  );
 }
 
-export default Recurringsection
+export default Recurringsection;
