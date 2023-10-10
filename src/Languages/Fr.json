@@ -101,7 +101,7 @@
     },
     "Business": {
         "title": "Proposez dès maintenant le paiement mobile à vos clients",
-        "text": "En ligne ou en magasin, j'accepte IsyPay en toute simplicité",
+        "text": "En ligne ou en magasin, j'accepte IsyPay en toute simplicité.",
         "codeQr-title": "Code QR pour les paiements en magasin",
         "codeQr-text": "Affichez votre code QR sur votre IsyWallet et créez une expérience de paiement efficace à la caisse. Pas de gestion d’argent, pas de cash et de petite monnaie."
     },
@@ -125,7 +125,7 @@
     },
     "DevenirAgent": {
         "title": "Espace Agent Partenaire",
-        "text": "Profite des commissions sur chaque ouverture de compte active et transaction réalisée",
+        "text": "Profite des commissions sur chaque ouverture de compte active et transaction réalisée.",
         "type1-title": "J’ouvre un compte Partenaire à distance",
         "type1-button": "En savoir plus",
         "type2-title": "J’ouvre un compte Partenaire par la IsyTeam"
