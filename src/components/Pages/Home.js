@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Home.css";
 import homeImage from '../../assets/logo/Home/HomeImage.svg';
-import particulier from '../../assets/pariculier.svg';
+import particulier from '../../assets/particulier.svg';
 import particulierEnglish from '../../assets/particulierEnglish.svg';
 import Professionnels from '../../assets/Professionnels.svg';
 import ProfessionnelsEnglish from '../../assets/ProfessionnelsEnglish.svg';
@@ -13,8 +13,7 @@ import Tarif from "./Tarif";
 
 
 export const Home = () => {
-  const { t, i18n } = useTranslation();
-  const [currentLanguage] = useState(i18n.language);
+  const { t } = useTranslation();
   return (
     <div className="main-container">
       <div className="container">
@@ -48,20 +47,39 @@ export const Home = () => {
       <div className="new-section">
         <h1>{t('ParticuliersouProfessionnels.title')}</h1>
         <div className="new-section-images">
-          <img
-            src={currentLanguage === 'en' ? particulierEnglish : particulier}
-            alt="particulier"
-            width={800}
-            height={800}
-          />
-          <img
-            src={currentLanguage === 'en' ? ProfessionnelsEnglish : Professionnels}
-            alt="Professionnels"
-            width={800}
-            height={800}
-          />
+          <div class="image-container">
+            <img
+              src={particulier}
+              alt="particulier"
+              width={600}
+              height={600}
+            />
+            <div class="image-text">
+              <h2>{t('ParticuliersouProfessionnels.titleParticulier')}</h2>
+              <h4>{t('ParticuliersouProfessionnels.textParticulier')}</h4>
+                <p>{t('ParticuliersouProfessionnels.point1Particulier')}</p>
+                <p>{t('ParticuliersouProfessionnels.point2Particulier')}</p>
+            </div>
+          </div>
+          <div class="image-container">
+            <img
+              src={Professionnels}
+              alt="Professionnels"
+              width={600}
+              height={600}
+              className="image2-container"
+            />
+            <div class="image-text">
+              <h2>{t('ParticuliersouProfessionnels.titleProfessionals')}</h2>
+              <h4>{t('ParticuliersouProfessionnels.textProfessionals')}</h4>
+                <p>{t('ParticuliersouProfessionnels.point1Professionals')}</p>
+                <p>{t('ParticuliersouProfessionnels.point2Professionals')}</p>
+                <p>{t('ParticuliersouProfessionnels.point3Professionals')}</p>
+            </div>
+          </div>
         </div>
       </div>
+
 
       <br /><br />
 

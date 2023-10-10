@@ -66,22 +66,22 @@ function Recurringsection() {
 
       <div className="security">
         <h1 className="title">{t('security.title')}</h1>
-        <p className="text">{t('security.text')}</p>
+        <h1 className="text">{t('security.text')}</h1>
         <div className="security-images">
           <div className="imageSecurity">
             <img src={securityImg1} alt="Security 1" width={300} height={300} />
             <h2>{t('security.title1')}</h2>
-            <p>{t('security.text1')}</p>
+            <h3>{t('security.text1')}</h3>
           </div>
           <div className="imageSecurity">
             <img src={securityImg2} alt="Security 2" width={300} height={300} />
             <h2>{t('security.title2')}</h2>
-            <p>{t('security.text2')}</p>
+            <h3>{t('security.text2')}</h3>
           </div>
           <div className="imageSecurity">
             <img src={securityImg3} alt="Security 3" width={300} height={300} />
             <h2>{t('security.title3')}</h2>
-            <p>{t('security.text3')}</p>
+            <h3>{t('security.text3')}</h3>
           </div>
         </div>
       </div>
@@ -108,7 +108,7 @@ function Recurringsection() {
                 <div
                   className={`accordion-content ${expandedItem === index && 'expanded'}`}
                 >
-                  <p>{item.answer}</p>
+                  <h2>{item.answer}</h2>
                 </div>
               </div>
             ))}

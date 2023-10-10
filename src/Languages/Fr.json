@@ -15,7 +15,16 @@
         "text": "IsySend est une Fintech Malienne mais à vocation Africaine qui opère dans le secteur financier. Elle se donne pour mission de participer à l’inclusion financière des populations africaines. IsySend développe les outils nécessaires pour connecter les différents acteurs de l'écosystème financier grâce à à une nouvelle infrastructure innovante et décentralisée. Elle utilise les nouvelles technologies de rupture comme la Blockchain et l'IA pour garantir un service moins onéreux, plus sécurisé et plus fiable. IsyPay est le premier produit de 'IsySend'."
     },
     "ParticuliersouProfessionnels": {
-        "title": "Particuliers ou Professionnels, bénéficier de services financiers aisés, accessibles et inclusifs."
+        "title": "Particuliers ou Professionnels, bénéficier de services financiers aisés, accessibles et inclusifs.",
+        "titleParticulier": "IsyWallet Particulier sans frais",
+        "textParticulier": "Demandez un IsyWallet Particulier en quelques clics sur votre téléphone.",
+        "point1Particulier": "- IsyWallet gratuit, sans frais cachés.",
+        "point2Particulier": "- Transferts d'argent et paiements marchands instantanés.",
+        "titleProfessionals": "IsyWallet Business sans frais",
+        "textProfessionals": "Demandez un IsyWallet Business en quelques clics sur votre téléphone.",
+        "point1Professionals": "- Donnez des autorisations d'administrateur et d'employé à votre personnel",
+        "point2Professionals": "- Générez des liens de paiement pour vos produits",
+        "point3Professionals": "- Obtenez des statistiques et des analyses sur vos activités"
     },
     "TarificationIsyPay": {
         "title": "Tarification IsyPay",
@@ -69,6 +78,18 @@
         "carousel-1": "Cadeau",
         "carousel-2": "Restaurant",
         "carousel-3": "Argent De Poche"
+    },
+    "payerEntreAmisCadeau": {
+        "title": "Payer entre amis",
+        "text": "Oh là là, j'ai oublié de te rembourser pour les cours de percussions. Je t'envoie l'argent via IsyPay tout de suite."
+    },
+    "payerEntreAmisRestaurant": {
+        "title": "Payer entre amis",
+        "text": "Pour rembourser Kadidia, qui a payé le repas, j'aurais seulement besoin de son numéro de téléphone."
+    },
+    "payerEntreAmisArgentDePoche": {
+        "title": "Payer entre amis",
+        "text": "En quelques instants, mon fils dispose de son argent de poche, directement sur son IsyWallet."
     },
     "how-it-works": {
         "title": "Comment ça marche ?",

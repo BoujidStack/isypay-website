@@ -200,9 +200,43 @@ button:hover {
   margin-top: 20px;
 }
 
-.new-section-images img {
-  margin: 0 -70px;
+.image-container {
+  margin: 0 20px;
+  text-align: center;
 }
+
+.image2-container {
+  margin-top: 50px;
+}
+
+.image-text {
+  margin-top: 10px;
+  color: #2E2E2E;
+}
+
+.image-text h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.image-text h4 {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.image-text p {
+  text-align: left;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+
+
+
+
 
 
 /* New Tarification Section */
@@ -393,8 +427,8 @@ button:hover {
 }
 
 .security .text {
-  font-size: 18px;
-  color: #555555;
+  font-size: 17px;
+  color: #2E2E2E;
   margin-bottom: 10px;
   max-width: 70rem;
   margin-left: auto;
@@ -427,9 +461,9 @@ button:hover {
   margin-bottom: 10px;
 }
 
-.security-images .imageSecurity p {
+.security-images .imageSecurity h3 {
   font-size: 14px;
-  color: #555555;
+  color: #2E2E2E;
 }
 
 
@@ -492,6 +526,7 @@ button:hover {
 
 .accordion button .accordion-title {
   padding: 1em 1.5em 1em 0;
+  font-size: 22px;
 }
 
 .accordion button .icon {
@@ -550,9 +585,8 @@ button:hover {
   will-change: opacity, max-height;
 }
 
-.accordion .accordion-content p {
-  font-size: 1rem;
-  font-weight: 300;
+.accordion .accordion-content h2 {
+  font-size: 14px;
   margin: 2em 0;
   color: #2E2E2E;
 }
@@ -827,7 +861,7 @@ button:hover {
     margin-right: -10px;
     order: 2;
   }
-  
+
   .about-us-image img {
     width: 250px;
     height: 250px;
@@ -861,9 +895,23 @@ button:hover {
 
   .new-section-images img {
     margin: 10px 0;
-    width: 375px;
-    height: 375px;
+    width: 320px;
+    height: 320px;
   }
+
+  .image-text h2 {
+    font-size: 24px;
+  }
+
+  .image-text h4 {
+    font-size: 16px;
+  }
+
+  .image-text p {
+    font-size: 16px;
+  }
+
+
 
   .tarification-section .title {
     font-size: 24px;

@@ -1,13 +1,9 @@
 import React, { useState } from "react";
 import "./Particulier.css";
-import carouselImg from '../../assets/carouselImg1.svg';
-import carouselImg3 from '../../assets/carouselImg3.svg';
-import carouselImg2 from '../../assets/carouselImg2.svg';
-import carouselImgEnglish from '../../assets/carouselImgEnglish.svg';
-import carouselImg3English from '../../assets/carouselImg3English.svg';
-import carouselImg2English from '../../assets/carouselImg2English.svg';
+import payerEntreAmisCadeau from '../../assets/payerEntreAmisCadeau.svg';
+import payerEntreAmisRestaurant from '../../assets/payerEntreAmisRestaurant.svg';
+import payerEntreAmisArgentDePoche from '../../assets/payerEntreAmisArgentDePoche.svg';
 import payerEnMagasin from '../../assets/payerEnMagasin.svg'
-import payerEnMagasinEnglish from '../../assets/payerEnMagasinEnglish.svg';
 import howItWorksImg from '../../assets/howItWorksImg.svg';
 import howItWorksImgEnglish from '../../assets/howItWorksImgEnglish.svg';
 import howItWorks2Img from '../../assets/howItWorks2Img.svg';
@@ -37,14 +33,18 @@ export const Particulier = () => {
             onChange={() => handleSlideChange(1)}
           />
           <div className="carousel-item">
-            <img
-              src={
-                currentLanguage === 'en'
-                  ? carouselImg2English
-                  : carouselImg2
-              }
-              alt="Slide 1"
-            />
+          <div className="carousel-content">
+              <div className="carousel-text">
+                <h1 className="title">{t('payerEntreAmisCadeau.title')}</h1>
+                <h1 className="text">"{t('payerEntreAmisCadeau.text')}"</h1>
+              </div>
+              <div className="carousel-imageitem">
+                <img
+                  src={payerEntreAmisCadeau}
+                  alt="How It Works"
+                />
+              </div>
+            </div>
           </div>
 
           <input
@@ -58,14 +58,18 @@ export const Particulier = () => {
             onChange={() => handleSlideChange(2)}
           />
           <div className="carousel-item">
-            <img
-              src={
-                currentLanguage === 'en'
-                  ? carouselImgEnglish
-                  : carouselImg
-              }
-              alt="Slide 2"
-            />
+            <div className="carousel-content">
+              <div className="carousel-text">
+                <h1 className="title">{t('payerEntreAmisRestaurant.title')}</h1>
+                <h1 className="text">"{t('payerEntreAmisRestaurant.text')}"</h1>
+              </div>
+              <div className="carousel-imageitem">
+                <img
+                  src={payerEntreAmisRestaurant}
+                  alt="How It Works"
+                />
+              </div>
+            </div>
           </div>
 
           <input
@@ -79,14 +83,18 @@ export const Particulier = () => {
             onChange={() => handleSlideChange(3)}
           />
           <div className="carousel-item">
-            <img
-              src={
-                currentLanguage === 'en'
-                  ? carouselImg3English
-                  : carouselImg3
-              }
-              alt="Slide 3"
-            />
+          <div className="carousel-content">
+              <div className="carousel-text">
+                <h1 className="title">{t('payerEntreAmisArgentDePoche.title')}</h1>
+                <h1 className="text">"{t('payerEntreAmisArgentDePoche.text')}"</h1>
+              </div>
+              <div className="carousel-imageitem">
+                <img
+                  src={payerEntreAmisArgentDePoche}
+                  alt="How It Works"
+                />
+              </div>
+            </div>
           </div>
 
           <label htmlFor="carousel-3" className="carousel-control prev control-1">
@@ -144,15 +152,22 @@ export const Particulier = () => {
           className="how-it-works-image"
         />
       </div>
-      <img
-        src={
-          currentLanguage === 'en'
-            ? payerEnMagasinEnglish
-            : payerEnMagasin
-        }
-        alt="How It Works"
-        className="how-it-works-image"
-      />
+      <div className="carousel-content">
+        <div className="carousel-text">
+          <h1 className="title">Payer en magasin</h1>
+          <h1 className="text">"Avec IsyPay réglez tous vos achats d’un simple geste."</h1>
+        </div>
+        <div className="carousel-image">
+          <img
+            src={payerEnMagasin}
+            alt="How It Works"
+            className="how-it-works-image"
+            width={600}
+            height={600}
+          />
+        </div>
+      </div>
+
       <div className="how-it-works-two">
         <h1 className="title">{t('how-it-works2.title')}</h1>
         <h1 className="text">

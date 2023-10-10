@@ -15,7 +15,16 @@
         "text": "IsySend is a Malian fintech with an African focus that operates in the financial sector. Its mission is to contribute to the financial inclusion of African populations. IsySend develops the necessary tools to connect different actors in the financial ecosystem through a new innovative and decentralized infrastructure. It leverages disruptive technologies like Blockchain and AI to provide a more cost-effective, secure, and reliable service. IsyPay is the first product of 'IsySend'."
     },
     "ParticuliersouProfessionnels": {
-        "title": "Individuals or Professionals, benefit from easy, accessible, and inclusive financial services."
+        "title": "Individuals or Professionals, benefit from easy, accessible, and inclusive financial services.",
+        "titleParticulier": "IsyWallet Personal with no fees",
+        "textParticulier": "Request an IsyWallet Personal in just a few clicks on your phone.",
+        "point1Particulier": "IsyWallet is free, with no hidden fees.",
+        "point2Particulier": "Instant money transfers and merchant payments.",
+        "titleProfessionals": "IsyWallet Business with no fees",
+        "textProfessionals": "Request an IsyWallet Business in just a few clicks on your phone.",
+        "point1Professionals": "Give administrator and employee permissions to your staff",
+        "point2Professionals": "Generate payment links for your products",
+        "point3Professionals": "Get statistics and analysis on your activities"
     },
     "TarificationIsyPay": {
         "title": "IsyPay Pricing",
@@ -69,6 +78,18 @@
         "carousel-1": "Gift",
         "carousel-2": "Restaurant",
         "carousel-3": "Pocket Money"
+    },
+    "payerEntreAmisCadeau": {
+        "title": "Pay Among Friends",
+        "text": "Oh dear, I forgot to reimburse you for the percussion lessons. I'll send you the money via IsyPay right away."
+    },
+    "payerEntreAmisRestaurant": {
+        "title": "Pay Among Friends",
+        "text": "To reimburse Kadidia, who paid for the meal, I only need her phone number."
+    },
+    "payerEntreAmisArgentDePoche": {
+        "title": "Pay Among Friends",
+        "text": "In a few moments, my son has his pocket money, directly on his IsyWallet."
     },
     "how-it-works": {
         "title": "How It Works ?",
