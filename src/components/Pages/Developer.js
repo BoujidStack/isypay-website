@@ -9,7 +9,6 @@ import { useTranslation } from 'react-i18next';
 
 
 
-
 export const Developer = () => {
   const { t } = useTranslation();
   return (
@@ -23,7 +22,7 @@ export const Developer = () => {
           </div>
         </div>
         <div className="Developer-image">
-          <img src={DeveloperImg} alt="Developer" width={600} height={600}/>
+          <img src={DeveloperImg} alt="Developer" width={600} height={600} />
         </div>
       </div>
 

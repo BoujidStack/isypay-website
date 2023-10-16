@@ -118,7 +118,7 @@ function Recurringsection() {
 
       <footer className="footer-distributed">
         <div className="footer-left">
-          <img className="footer-logo" src={logoFooter} alt="Isypay Logo" />
+          <a href="/"><img className="footer-logo" src={logoFooter} alt="Isypay Logo" /></a>
           <p className="footer-links">
             <a href="/">{t('footer.Home')}</a>
             <a href="/Particulier">{t('footer.Particulier')}</a>
